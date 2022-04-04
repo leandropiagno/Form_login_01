@@ -1,0 +1,102 @@
+/* reset geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: helvetica;
+    text-decoration: none;
+    color: #161616;
+}
+
+body {
+    background-image: url('/public/img/hacker-3655668.jpg');
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a, label {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #03a062;
+}
+
+/* login_container */
+
+#login_container{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+/* formulário */
+
+
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight:bold;
+}
+
+input {
+    border-bottom: solid 2px #161616;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: solid 2px #03a062;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    background-color: #03a062;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #024d2f;
+    transition: .5s;
+}
+
+.erroInput {
+    border: 2px solid rgb(218, 67, 67) !important;
+}
+
+
+
+
